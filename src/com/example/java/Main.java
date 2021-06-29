@@ -17,6 +17,7 @@ public class Main {
         olives.add(new Ligurian());
         olives.add(new Ligurian());
 
+
         OlivePress press = new OlivePress();
         int totalOil = press.getOil(olives);
 
